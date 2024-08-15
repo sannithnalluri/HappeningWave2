@@ -60,7 +60,7 @@ export default function App() {
         <View style={{ backgroundColor: '#2F3CAA', height: 100, width: '100%' }}>
         </View>
         <View>
-          <Text style={{ fontSize: 28, fontWeight: 'bold', marginHorizontal: 20, marginTop: 40 }}>Upload Your Event For Free</Text>
+          <Text style={{ fontSize: 18, fontWeight: 'bold', marginHorizontal: "20%", marginTop: 40,color:'grey' }}>Upload Your Event For Free</Text>
         </View>
         <View style={{ alignItems: 'center', justifyContent: 'center' }}>
           <TouchableOpacity onPress={pickImageAsync}>
